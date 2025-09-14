@@ -10,7 +10,7 @@ const Contact = () => {
   const formData = new FormData(form.current);
   const formValues = Object.fromEntries(formData.entries());
   console.log(formValues);
-  toast.success("Form values logged in console ✅", {
+  toast.success("Email sent", {
     position: "top-right",
     autoClose: 3000,
     hideProgressBar: false,
